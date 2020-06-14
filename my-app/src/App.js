@@ -12,7 +12,9 @@ function App() {
       <header className="App-header">
         <img src={skier} className="skier" alt="skier" />
         <img src={logo} className="logo" alt="logo" />
-        <p>COMING SOON!</p>
+        <section>
+          <p>YES! VI ÅKER RULLSKIDOR PÅ NYLAGD ASFALT I NATURSKÖNA ORHEM.</p>
+        </section>
       </header>
       <footer className="footer" />
     </div>
