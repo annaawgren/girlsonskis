@@ -1,0 +1,14 @@
+.om-button {
+  background-color: #ff0000;
+  color: white;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 2em;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50px;
+  left: 0px;
+}
