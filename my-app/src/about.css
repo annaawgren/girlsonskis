@@ -11,4 +11,21 @@
   position: fixed;
   top: 50px;
   left: 0px;
+  outline: none;
+  border: none;
+}
+.om-button:hover {
+  color: black;
+}
+
+.about-txt {
+  display: none;
+}
+
+.about-txt.visible {
+  display: block;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 1em;
+
+  color: #630000;
 }

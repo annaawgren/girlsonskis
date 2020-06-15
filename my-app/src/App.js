@@ -1,14 +1,19 @@
 import React from "react";
+import { useState } from "react";
 import skier from "./images/skier.svg";
 import logo from "./images/logo.svg";
 
-import { About } from "./about";
+import { AboutText } from "./about";
 import "./App.css";
 
 function App() {
+  const [visible, setVisible] = useState(false);
   return (
     <div className="App">
-      <About />
+      <button onClick={() => setVisible(!visible)} className="om-button">
+        OM
+      </button>
+      <AboutText visible={visible} />
       <header className="App-header">
         <img src={skier} className="skier" alt="skier" />
         <img src={logo} className="logo" alt="logo" />
