@@ -19,6 +19,7 @@ function App() {
         <img src={logo} className="logo" alt="logo" />
         <section>
           <p>YES! VI ÅKER RULLSKIDOR PÅ NYLAGD ASFALT I NATURSKÖNA ORHEM.</p>
+          <div className="spacing" />
           <p>SÖNDAGAR KL 9.00.</p>
           <p>
             VI SAMLAS{" "}
@@ -31,7 +32,6 @@ function App() {
           </p>
         </section>
       </header>
-      <footer className="footer" />
     </div>
   );
 }
