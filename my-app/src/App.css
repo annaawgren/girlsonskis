@@ -3,10 +3,12 @@
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
+  font-family: "Fjalla One", sans-serif;
+  text-transform: uppercase;
+  box-sizing: border-box;
 }
 
 .App {
-  text-align: center;
   background-color: #ffe2ee;
   height: 100%;
 }
@@ -15,11 +17,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding-top: 8vh;
   color: #630000;
-  height: 100vh;
-  font-family: "Fjalla One", sans-serif;
+}
+.main-section {
   font-size: 2em;
+  padding-bottom: 100px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
 }
 
 .skier {
@@ -35,8 +43,17 @@
 .spacing {
   height: 50px;
 }
+
+.footer {
+  background-color: #ff0000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
 @media (max-width: 740px) {
   .logo {
-    width: 200px;
+    width: 250px;
   }
 }
