@@ -11,9 +11,9 @@ export const AboutText = function (props) {
         jobbigt. Vilan i nerförsbacken, fartvinden svalkar...
       </p> */}
       <p className="pm ">
-        Girls on Skis är ett intitiativ grundat 2020 för dig som ❤️ längd – och
-        vill åka rullskidor när det inte finns snö. Vi åker för att det är
-        härligt. Och sjukt bra träning. Vill du åka med oss?
+        Girls on Skis är för dig som ❤️ längd – och vill åka rullskidor när det
+        inte finns snö. Vi åker för att det är härligt. Och sjukt bra träning.
+        Vill du åka med oss?
         <a>Anmäl dig här!</a>
       </p>
       <p className="pm ">
