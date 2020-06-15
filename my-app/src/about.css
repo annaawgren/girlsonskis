@@ -9,13 +9,10 @@
   justify-content: center;
   align-items: center;
   position: fixed;
-  top: 50px;
+  top: 120px;
   left: 0px;
   outline: none;
   border: none;
-}
-.om-button:hover {
-  color: black;
 }
 
 .about-txt {
