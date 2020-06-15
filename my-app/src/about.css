@@ -23,9 +23,27 @@
 }
 
 .about-txt.visible {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   font-family: "Fjalla One", sans-serif;
-  font-size: 1em;
-
+  font-size: 2em;
+  pointer-events: none;
+  background-color: #ff0000;
   color: #630000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  width: 100vw;
+  height: 100vh;
+}
+
+.pm {
+  margin-top: 20px;
+}
+
+.column {
+  width: 60%;
 }
