@@ -11,7 +11,7 @@
 
 .App-header {
   background-color: #ffe2ee;
-  min-height: 100vh;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,11 +20,6 @@
   padding-bottom: 100px;
   font-family: "Fjalla One", sans-serif;
   font-size: 2em;
-}
-
-.App-header p {
-  margin-top: 100px;
-  color: #630000;
 }
 
 .skier {
