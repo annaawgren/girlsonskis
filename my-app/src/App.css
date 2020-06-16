@@ -49,8 +49,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding-top: 2em;
-  padding-bottom: 2em;
+  padding-bottom: 4em;
+  color: #ffe2ee;
 }
 @media (max-width: 740px) {
   .logo {

@@ -2,8 +2,10 @@ import React from "react";
 import { useState } from "react";
 import skier from "./images/skier.svg";
 import logo from "./images/logo.svg";
+import logoWhite from "./images/logo-c.svg";
 
 import { AboutText } from "./about";
+import { Imgs } from "./imgs";
 import "./App.css";
 
 function App() {
@@ -35,10 +37,14 @@ function App() {
         </p>
       </section>
 
+      <Imgs />
+      <div className="spacing" />
+
       <footer className="footer">
         <div>instagram</div>
         <div>hello@girlsonskis.se</div>
-        <div>©Girls on Skis 2020</div>
+        <div className="spacing" />
+        <img src={logoWhite} className="logo-c" alt="logo" />
       </footer>
     </div>
   );
