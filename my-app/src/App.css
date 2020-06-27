@@ -55,7 +55,7 @@
   color: #ffe2ee;
 }
 
-@keyframes sweater {
+/* @keyframes sweater {
   0% {
     opacity: 1;
     fill: red;
@@ -73,7 +73,7 @@
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-name: sweater;
-}
+} */
 
 @media (max-width: 740px) {
   .logo {
