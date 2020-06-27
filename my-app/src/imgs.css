@@ -4,14 +4,14 @@
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
+  background: red;
+  padding-bottom: 20px;
+  padding-top: 40px;
 }
 
 .single-img-container {
   width: 100%;
-  height: 0;
-  padding-bottom: 100%;
-  position: relative;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .single-img-container img {
@@ -25,17 +25,24 @@
   width: 100%;
 }
 
+.img-box {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  background: slateblue;
+  position: relative;
+}
+
 @media screen and (min-width: 800px) {
   .img-container {
     flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
-  .single-img-container:nth-child(1) {
-    margin-right: 20px;
-  }
-  .single-img-container:nth-child(2) {
-    margin-right: 20px;
+
+  .single-img-container {
+    width: 32%;
   }
 }

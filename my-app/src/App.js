@@ -27,14 +27,15 @@ function App() {
         </p>
         <div className="spacing" />
         <p>SÖNDAGAR KL 9.00.</p>
-        <p>
+        <p>Anmäl dig här.</p>
+        {/* <p>
           VI SAMLAS{" "}
           <span>
             <a href="https://goo.gl/maps/wveUkTtHc3opYTwV9" target="_blank">
               HÄR
             </a>
           </span>
-        </p>
+        </p> */}
       </section>
 
       <Imgs />

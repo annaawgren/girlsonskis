@@ -8,7 +8,8 @@ export const AboutText = function (props) {
       <p className="pm">
         Girls on Skis är för dig som &#60;3 längd – och vill åka rullskidor när
         det inte finns snö. Vi åker för att det är härligt. Och sjukt bra
-        träning. Vill du åka med oss? <a>Anmäl dig här!</a>
+        träning. Vill du åka med oss?{" "}
+        <a href="mailto:hello@girlsonskis.se">Anmäl dig här!</a>
       </p>
       <div className="spacing" />
       <p className="pm ">
