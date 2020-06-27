@@ -54,6 +54,27 @@
   padding-bottom: 4em;
   color: #ffe2ee;
 }
+
+@keyframes sweater {
+  0% {
+    opacity: 1;
+    fill: red;
+  }
+
+  95% {
+    opacity: 0;
+    fill: blue;
+  }
+  100% {
+    fill: tan;
+  }
+}
+.sweater {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: sweater;
+}
+
 @media (max-width: 740px) {
   .logo {
     width: 250px;
